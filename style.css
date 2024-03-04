@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nabvar style start */
+
+.navbar{
+    padding: 15px 25px 0 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+    position: relative;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.cludy{
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+    opacity: .5;
+}
+
+.cludy img{
+    width: 150%;
+}
+
+.logo-image{
+    width:100% ;
+    position: relative;
+    z-index: 10;
+}
+
+
+/* nav-item style start */
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-item li a{
+    text-decoration: none;
+    font-size: 24px;
+    color:#fff;
+    transition: all .3s ease-in-out;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+.nav-item a:hover{
+    background-color: #ffffffb9;
+    color: black;
+}
+
+.nav-btn button{
+    padding: 4px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.667);
+}
+
+/* Home section style start */
+
+.home{
+   
+     background: url(./img/aa.jpg) center/cover no-repeat;
+    
+}
+
+
+.mask{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.521);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container {
+    text-align: center;
+}
+
+.home-title{
+    font-size: 70px;
+    color: white;
+}
+
+.home-btn button{
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* Home section style end */
